@@ -1,7 +1,14 @@
-import 'package:contadorxd/pages/pomodoroscreen.dart';
+import 'package:pomodoroapp/pages/pomodoroscreen.dart';
 import 'package:flutter/material.dart';
+import 'package:pomodoroapp/services/timerservice.dart';
+import 'package:provider/provider.dart';
 
-void main() => runApp(const MyApp());
+void main() => runApp(
+  ChangeNotifierProvider<TimerService>(
+    create: (_) => TimerService(),
+    child: MyApp(),
+  ),
+);
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});

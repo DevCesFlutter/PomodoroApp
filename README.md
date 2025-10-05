@@ -1,16 +1,37 @@
-# contadorxd
+# contadorPomodoro
 
-A new Flutter project.
+## Descripcion del proyecto
 
-## Getting Started
+Contador Pomodoro es una aplicación desarrollada con Flutter que te ayuda a mejorar tu concentración y productividad aplicando la técnica Pomodoro.
+El método consiste en alternar rondas de estudio con breves descansos para mantener el enfoque y evitar el agotamiento mental.
+Por ejemplo:
 
-This project is a starting point for a Flutter application.
+25 minutos de estudio
 
-A few resources to get you started if this is your first Flutter project:
+5 minutos de descanso
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Cada 3 rondas, se realiza un descanso más largo de 10 minutos.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Tecnologias
+
+Dart
+
+Flutter
+
+Provider (para la gestión del estado)
+
+Google Fonts
+
+# Descargala📲
+
+Link_apk:**\_**
+
+## 📸 Screenshots
+
+Pantalla principal de la app:
+
+![Pantalla Focus](assets/Pomo_Focus.jpeg)
+
+Pantalla de descanso:
+
+![Pantalla de descanso](assets/Pomo_break.jpeg)

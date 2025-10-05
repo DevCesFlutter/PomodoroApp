@@ -1,14 +1,22 @@
-import 'package:contadorxd/utils/utils.dart';
+import 'package:pomodoroapp/services/timerservice.dart';
+import 'package:pomodoroapp/utils/utils.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 class Timercard extends StatelessWidget {
   const Timercard({super.key});
 
   @override
   Widget build(BuildContext context) {
+    final provider = Provider.of<TimerService>(context);
+    final seconds = (provider.currentDuration % 60);
+
     return Column(
       children: [
-        Text("Focus", style: textStyle(35, Colors.white, FontWeight.w700)),
+        Text(
+          provider.currentState,
+          style: textStyle(35, Colors.white, FontWeight.w700),
+        ),
         SizedBox(height: 20),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -30,10 +38,10 @@ class Timercard extends StatelessWidget {
               ),
               child: Center(
                 child: Text(
-                  "00",
+                  (provider.currentDuration ~/ 60).toString(),
                   style: textStyle(
                     70,
-                    Colors.deepPurpleAccent,
+                    renderColor(provider.currentState),
                     FontWeight.bold,
                   ),
                 ),
@@ -59,10 +67,12 @@ class Timercard extends StatelessWidget {
               ),
               child: Center(
                 child: Text(
-                  "12",
+                  seconds == 0
+                      ? "${seconds.round()}0"
+                      : seconds.round().toString(),
                   style: textStyle(
                     70,
-                    Colors.deepPurpleAccent,
+                    renderColor(provider.currentState),
                     FontWeight.bold,
                   ),
                 ),
