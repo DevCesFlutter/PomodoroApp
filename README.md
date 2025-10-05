@@ -30,8 +30,8 @@ Link_apk:**\_**
 
 Pantalla principal de la app:
 
-![Pantalla Focus](assets/Pomo_Focus.jpeg)
+![Pantalla Focus](lib/assets/Pomo_Focus.jpeg)
 
 Pantalla de descanso:
 
-![Pantalla de descanso](assets/Pomo_break.jpeg)
+![Pantalla de descanso](lib/assets/Pomo_break.jpeg)
