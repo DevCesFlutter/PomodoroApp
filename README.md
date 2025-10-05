@@ -28,10 +28,7 @@ Link_apk:**\_**
 
 ## 📸 Screenshots
 
-Pantalla principal de la app:
-
-![Pantalla Focus](lib/assets/Pomo_Focus.jpeg)
-
-Pantalla de descanso:
-
-![Pantalla de descanso](lib/assets/Pomo_break.jpeg)
+<div style="display: flex; gap: 20;">
+  <img src="lib/assets/Pomo_Focus.jpeg" alt="Pantalla Focus" width="300"/>
+  <img src="lib/assets/Pomo_break.jpeg" alt="Pantalla de descanso" width="300"/>
+</div>
