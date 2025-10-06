@@ -24,7 +24,7 @@ Google Fonts
 
 # Descargala📲 Para android
 
- Link_apk: https://drive.google.com/file/d/1aOIEg5f9u6bXJkn5KIyJpjk7Cyk3GVVR/view?usp=sharing
+Link_apk: https://drive.google.com/file/d/1cET1b_zwK0PtGkfHzzWO6OhXctOiGeDs/view?usp=sharing
 
 ## 📸 Screenshots
 
